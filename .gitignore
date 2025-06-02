@@ -35,6 +35,10 @@ migrate_working_dir/
 /build/
 !**/build/.gitkeep
 
+# Ensure empty folders in lib are tracked
+!lib/**/
+!lib/**/.gitkeep
+
 # Symbolication related
 app.*.symbols
 

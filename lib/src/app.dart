@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'Vehicify',
+        title: 'Cashlink',
         theme: lightTheme,
         themeMode: ThemeMode.light,
         debugShowCheckedModeBanner: false,

@@ -1,12 +1,12 @@
+import 'package:cashlink/src/login/login_view.dart';
+import 'package:flutter/material.dart';
 
+Widget routeNavigator(String routeName) {
+  switch (routeName) {
+    case LoginView.routeName:
+      return const LoginView();
 
-
-// Widget routeNavigator(String routeName) {
-//   switch (routeName) {
-//     case LandingView.routeName:
-//       return const LandingView();
-   
-//     default:
-//       return const LandingView();
-//   }
-// }
+    default:
+      return const LoginView();
+  }
+}

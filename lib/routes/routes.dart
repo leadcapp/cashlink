@@ -8,7 +8,7 @@ Widget routeNavigator(String routeName) {
     case LoginView.routeName:
       return const LoginView();
       case AgentHomeScreen.routeName:
-      return const AgentHomeScreen();
+      return AgentHomeScreen();
 
     default:
       return const LoginView();

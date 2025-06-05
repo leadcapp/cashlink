@@ -11,6 +11,6 @@ Widget routeNavigator(String routeName) {
       return AgentHomeScreen();
 
     default:
-      return const LoginView();
+      return  AgentHomeScreen();
   }
 }

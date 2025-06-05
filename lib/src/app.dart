@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
           settings: routeSettings,
           pageBuilder: (BuildContext context, Animation<double> animation,
                   Animation<double> secondaryAnimation) =>
-              routeNavigator('/agent_home'),
+              routeNavigator(routeSettings.name ?? '/'),
           transitionsBuilder: (BuildContext context,
                   Animation<double> animation,
                   Animation<double> secondaryAnimation,
